@@ -4,7 +4,7 @@ An AI-based drone energy optimization and mission intelligence system built duri
 
 ## 📌 Overview
 Aero Energy Optimizer predicts drone battery usage, estimates mission endurance, and evaluates mission risk using machine learning and data analytics.  
-The system is designed to support defense and surveillance drone missions by enabling energy-aware decision-making before mission execution.
+The system is designed to support defence and surveillance drone missions by enabling energy-aware decision making before mission execution.
 
 ## ⚙️ Key Features
 - Battery remaining prediction using ML
@@ -27,3 +27,16 @@ The system is designed to support defense and surveillance drone missions by ena
 - Scikit-learn
 - Streamlit
 - Matplotlib
+
+## 📊 Dataset
+This project was developed using a publicly available drone telemetry dataset.
+
+Due to repository size constraints, the full dataset is not included in this repository.
+
+🔗 **Dataset Link:**  
+https://www.kaggle.com/datasets/samsudeenashad/supplemental-drone-telemetry-data-and-operations-log
+
+## 🔧 Installation & Run
+```bash
+pip install -r requirements.txt
+streamlit run app.py
