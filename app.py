@@ -133,5 +133,3 @@ if st.button("🚀 Analyze Mission"):
     ax.grid(True)
 
     st.pyplot(fig)
-
-# after running this file, Type streamlit run app.py to see the dashboard 
